@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.blog-header {
+    background: linear-gradient(to right, #002366, #4c6ef5);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header.blog-header h1 {
+    font-size: 2.5rem;
+}
+
+header.blog-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Blog Container */
+.blog-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Featured Blog */
+.featured-blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.featured-blog img {
+    width: 50%;
+    height: auto;
+}
+
+.featured-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.featured-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.featured-content p {
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    background: #4c6ef5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background: #002366;
+}
+
+/* Blog Main Section */
+.blog-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    flex: 3;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 55%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.blog-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.blog-card p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Sidebar */
+.blog-sidebar {
+    flex: 1;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-sidebar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.blog-sidebar ul li a {
+    text-decoration: none;
+    color: #4c6ef5;
+}
+
+.blog-sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #4c6ef5;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.pagination a:hover {
+    background: #002366;
+}
+
+.pagination .page-number {
+    font-weight: bold;
+}
+
+/* Footer */
+footer.blog-footer {
+    text-align: center;
+    background: #002366;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* ----------- Responsive Styles ----------- */
+
+/* For Tablets (768px and below) */
+@media (max-width: 768px) {
+    .featured-blog {
+        flex-direction: column;
+    }
+
+    .featured-blog img {
+        width: 100%;
+    }
+
+    .featured-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .blog-sidebar {
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .blog-grid {
+        order: 1;
+    }
+}
+
+/* For Mobile Devices (480px and below) */
+@media (min-width : 980px) and (max-width : 1200px){
+    .sub-header h1 {
+        margin-top: 0rem;
+    }
+    
+}
+@media ( max-width : 980px){
+    .sub-header h1 {
+        margin-top: 0.3rem;
+    }
+}
+@media (max-width: 480px) {
+    header.blog-header h1 {
+        font-size: 1.8rem;
+    }
+    .sub-header h1 {
+        margin-top: 0.5rem;
+        font-size: 1.8rem;
+    }
+  
+    header.blog-header p {
+        font-size: 1rem;
+    }
+
+    .featured-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .read-more-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .blog-card h3 {
+        font-size: 1rem;
+    }
+
+    .blog-sidebar h3 {
+        font-size: 1.2rem;
+    }
+
+    .pagination a {
+        padding: 8px 15px;
+    }
+}

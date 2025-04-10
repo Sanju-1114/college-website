@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo11.png" type="image/png">
+    <title>Contact-Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" alt="College Logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="departments.html">DEPARTMENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <!---------------Contact Us ------------->
+    <section class="contact-container">
+        <div class="contact-details">
+            <h2>Reach Us</h2>
+            <ul>
+                <li><strong>Address:</strong> Sanju Institute of Technology, 123 Knowledge Avenue, Tech City, India</li>
+                <li><strong>Email:</strong> <a href="mailto:info@sit.edu">info@sit.edu</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+910000000000">+91 00000 00000</a></li>
+                <li><strong>Office Hours:</strong> Mon-Fri, 9:00 AM - 5:00 PM</li>
+            </ul>
+        </div>
+
+        <div class="contact-map">
+            <h2>Our Location</h2>
+            <!-- Embed Google Map -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.117638604724!2d-122.07851408468124!3d37.38747477982574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b4f781fedb7c8f4!2sSanju%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1616678427895!5m2!1sen!2sin"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <h2 id="feedback-msg">Send Us a Message</h2>
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name"><b>Your Name</b></label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><b>Your Email</b></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject"><b>Subject</b></label>
+                <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+            </div>
+            <div class="form-group">
+                <label for="message"><b>Your Message</b></label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Additional Content Before Feedback Section -->
+    <section class="additional-content">
+        <div class="student-support">
+            <h2>Student Support Services</h2>
+            <p>At Sanju Institute of Technology (SIT), we are committed to providing comprehensive support for our
+                students. Whether you need academic guidance, career counseling, or assistance with personal challenges,
+                our dedicated support team is here to help you succeed.</p>
+            <ul>
+                <li><strong>Academic Advising:</strong> Personalized support to help you achieve your academic goals.
+                </li>
+                <li><strong>Career Services:</strong> Guidance on internships, placements, and career development.</li>
+                <li><strong>Mental Health & Wellness:</strong> Confidential support to promote student well-being.</li>
+                <li><strong>Financial Aid:</strong> Assistance with scholarships, grants, and other financial resources.
+                </li>
+            </ul>
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <p>Here are some commonly asked questions to help you find the information you need quickly:</p>
+            <ul>
+                <li><strong>How can I apply for admission?</strong> Visit our <a href="admission.html">Admissions</a>
+                    page for detailed guidelines.</li>
+                <li><strong>What courses are offered at SIT?</strong> Check out our <a
+                        href="departments.html">Departments</a> page for a list of programs.</li>
+                <li><strong>Where can I find information on upcoming events?</strong> Explore our <a
+                        href="blog.html">Blog</a> section for news and updates.</li>
+                <li><strong>How can I contact specific departments?</strong> Reach out via our <a
+                        href="#contact-details">Contact Details</a> section above.</li>
+            </ul>
+        </div>
+
+        <div class="quick-links">
+            <h2>Quick Links</h2>
+            <p>Access important resources and services at SIT with just a click:</p>
+            <div class="links">
+                <a href="admission.html" class="quick-link-btn">Admissions</a>
+                <a href="departments.html" class="quick-link-btn">Programs & Departments</a>
+                <!-- <a href="library.html" class="quick-link-btn">Library</a> -->
+                <a href="blog.html" class="quick-link-btn">Upcoming Events</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Feedback Section -->
+    <section class="feedback-section">
+        <h2>We Value Your Feedback</h2>
+        <p>Let us know about your experience with SIT. Your feedback helps us improve!</p>
+        <a href="#feedback-msg" class="feedback-btn">Give Feedback</a>
+    </section>
+
+
+
+
+    <!---------- Footer-------->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Sanju Institute of Technology (SIT) is a premier institution committed to providing quality education in the
+            field of engineering and technology. With a focus on innovation, research, and practical learning, we strive
+            to prepare students for successful careers in the rapidly evolving world. Our state-of-the-art facilities,
+            dedicated faculty, and industry collaborations ensure a holistic learning experience for all our students.
+            At SIT, we aim to cultivate leaders and innovators who can make meaningful contributions to society.</p>
+        <div class="icons">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Sanjeev</p>
+        <p>&copy; 2024 Sanju Institute of Technology. All Rights Reserved.</p>
+    </section>
+
+
+
+
+    <!-- ------------JavaScript for Toggle menu--------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.classList.add("show");
+        }
+
+        function hideMenu() {
+            navLinks.classList.remove("show");
+        }
+
+    </script>
+
+</body>
+
+</html>
