@@ -126,6 +126,13 @@ SIT-Website-Project/
 
 ---
 
+## Feature which you can add in this
+
+- You can add more JS files to make it more functioning.
+- You can also free to add the new pages.
+- You can also add some more responsive and functionalities.
+
+
 ## 📬 Contact
 
 **Developer:** Sanjeev Kumar  
