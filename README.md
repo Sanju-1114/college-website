@@ -1,10 +1,10 @@
-# 🌐 Sanju Institute of Technology (SIT) - Official Website
+#  Sanju Institute of Technology (SIT) - Official Website
 
 Welcome to the official website project for **Sanju Institute of Technology (SIT)**, a modern, responsive, and user-friendly college website built using HTML, CSS, and JavaScript. This project serves as an academic mini-project aimed at showcasing web development skills and institutional representation online.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The SIT website is designed to:
 
@@ -15,20 +15,20 @@ The SIT website is designed to:
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Responsive design across devices.
-- ✅ Clean and modern UI/UX.
-- ✅ Intuitive navigation bar.
-- ✅ Sections for About, Admission, Departments, Blog, Contact.
-- ✅ Testimonials from students.
-- ✅ Social media integration.
-- ✅ Contact form and feedback section.
-- ✅ JavaScript-based responsive menu.
+-  Responsive design across devices.
+-  Clean and modern UI/UX.
+-  Intuitive navigation bar.
+-  Sections for About, Admission, Departments, Blog, Contact.
+-  Testimonials from students.
+-  Social media integration.
+-  Contact form and feedback section.
+-  JavaScript-based responsive menu.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️l Technologies Used
 
 - **HTML5** – Page structure
 - **CSS3** – Styling and layout
@@ -39,7 +39,7 @@ The SIT website is designed to:
 
 ---
 
-## 🧾 Pages Included
+##  Pages Included
 
 - `index.html` – Home page
 - `about.html` – About the institution
@@ -50,7 +50,8 @@ The SIT website is designed to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+```
 SIT-Website-Project/
 │
 ├── index.html                # Homepage
@@ -78,36 +79,36 @@ SIT-Website-Project/
 └── /assets/                 # Optional: fonts, additional media
     └── ...
 
-
+```
 
 
 
 ---
 
-## 📷 Preview
-## 📸 Screenshots
+##  Preview
+##  Screenshots
 
-### 🏠 Homepage
+###  Homepage
 ![Homepage](images/screenshots/homepage.png)
 
-### 📞 Contact Page
+###  Contact Page
 ![Contact Page](images/screenshots/contact.png)
 
-### ℹ️ About Page
+###  About Page
 ![About Page](images/screenshots/about.png)
 
-### 📝 Blog Page
+###  Blog Page
 ![Blog Page](images/screenshots/blog.png)
 
-### 🎓 Admission Page
+###  Admission Page
 ![Admission Page](images/screenshots/admission.png)
 
-### 🏢 Departments Page
+###  Departments Page
 ![Departments Page](images/screenshots/departments.png)
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - Developed by **Sanjeev Kumar**
 - Special thanks to open-source libraries and icons from:
@@ -116,7 +117,7 @@ SIT-Website-Project/
 
 ---
 
-## 🎓 What I Learned
+##  What I Learned
 
 - How to structure and style multi-page websites
 - Using external libraries (icons, fonts)
@@ -133,12 +134,13 @@ SIT-Website-Project/
 - You can also add some more responsive and functionalities.
 
 
-## 📬 Contact
+##  Contact
 
 **Developer:** Sanjeev Kumar  
 **College:** Sanju Institute of Technology (SIT)  
 **Email:** sanju20july2002@gmail.com  
 **GitHub:** https://github.com/Sanju-1114
+**Live Demo:** https://sanju-1114.github.io/college-website/index.html
 
 ---
 
