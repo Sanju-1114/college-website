@@ -1,4 +1,4 @@
-#  Sanju Institute of Technology (SIT) - Official Website
+#  Sanju Institute of Technology (SIT) - This is the college mini project website
 
 Welcome to the official website project for **Sanju Institute of Technology (SIT)**, a modern, responsive, and user-friendly college website built using HTML, CSS, and JavaScript. This project serves as an academic mini-project aimed at showcasing web development skills and institutional representation online.
 
