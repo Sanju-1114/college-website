@@ -26,8 +26,7 @@ The SIT website is designed to:
 
 ---
 
-## l Technologies Used
-
+##  Technologies Used
 - **HTML5** – Page structure
 - **CSS3** – Styling and layout
 - **JavaScript** – Interactivity (menu toggle)
@@ -38,7 +37,6 @@ The SIT website is designed to:
 ---
 
 ##  Pages Included
-
 - `index.html` – Home page
 - `about.html` – About the institution
 - `admission.html` – Admission process
