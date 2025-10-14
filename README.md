@@ -16,7 +16,6 @@ The SIT website is designed to:
 ---
 
 ##  Features
-
 -  Responsive design across devices.
 -  Clean and modern UI/UX.
 -  Intuitive navigation bar.
