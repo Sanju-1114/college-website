@@ -131,10 +131,8 @@ SIT-Website-Project/
 
 
 ##  Contact
-
 **Developer:** Sanjeev Kumar  
 **College:** Sanju Institute of Technology (SIT)  
-**Email:** sanju20july2002@gmail.com  
 **GitHub:** https://github.com/Sanju-1114
 
 **Live Demo:** https://sanju-1114.github.io/college-website/index.html
