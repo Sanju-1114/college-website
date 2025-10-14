@@ -5,7 +5,6 @@ Welcome to the official website project for **Sanju Institute of Technology (SIT
 ---
 
 ##  Project Overview
-
 The SIT website is designed to:
 
 - Provide a digital presence for the college.
