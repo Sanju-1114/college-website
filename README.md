@@ -26,7 +26,7 @@ The SIT website is designed to:
 
 ---
 
-## 🛠️l Technologies Used
+## l Technologies Used
 
 - **HTML5** – Page structure
 - **CSS3** – Styling and layout
