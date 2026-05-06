@@ -132,6 +132,8 @@ SIT-Website-Project/
 - You can also add some more responsive and functionalities.
 
 
+---
+
 ##  Contact
 **Developer:** Sanjeev Kumar  
 **College:** Sanju Institute of Technology (SIT)  
