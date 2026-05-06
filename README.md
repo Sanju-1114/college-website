@@ -139,6 +139,8 @@ SIT-Website-Project/
 **College:** Sanju Institute of Technology (SIT)  
 **GitHub:** [Check](https://github.com/Sanju-1114)
 
+---
+
 **Live Demo:** [Click here](https://sanju-1114.github.io/college-website/index.html)
 
 ---
